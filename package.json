@@ -1,0 +1,38 @@
+{
+  "name": "magenta",
+  "version": "0.0.0",
+  "description": "Generate flexible REST endpoints and controllers from Mongoose models in your Restify app",
+  "main": "./lib/index.js",
+  "scripts": {
+    "eslint": "./node_modules/.bin/eslint --config ./.eslintrc ./lib/. || true",
+    "pretest": "npm run eslint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umayr/magenta.git"
+  },
+  "keywords": [
+    "rest",
+    "api",
+    "crud",
+    "automate",
+    "generator",
+    "restify",
+    "mongoose"
+  ],
+  "author": "Umayr Shahid <umayrr@hotmail.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/umayr/magenta/issues"
+  },
+  "homepage": "https://github.com/umayr/magenta#readme",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "debug": "^2.2.0",
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "eslint": "^1.10.2"
+  }
+}
